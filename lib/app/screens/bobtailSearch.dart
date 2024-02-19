@@ -17,7 +17,8 @@ class _BobtailSearchState extends State<BobtailSearch> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.bobtailSearchUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.bobtailSearchUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,

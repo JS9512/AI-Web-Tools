@@ -17,7 +17,8 @@ class _StableDiffState extends State<StableDiff> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.stableDiffWebUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.stableDiffWebUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,

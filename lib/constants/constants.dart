@@ -63,7 +63,7 @@ class AppStrings {
   static const String leonardo = "Leonardo AI";
   static const String clipdrop = "Clipdrop";
   static const String imagineMeta = "Imagine Meta AI";
-  static const String stableDiffWeb = "Stable Diffusion Online";
+  static const String stableDiffWeb = "Stable Diffusion";
   static const String elevenLabs = "ElevenLabs";
   static const String cloudTTS = "Cloud TTS";
   static const String playHT = "PlayHT";

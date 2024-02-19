@@ -17,7 +17,8 @@ class _huggingChatState extends State<huggingChat> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.huggingChatUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.huggingChatUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,

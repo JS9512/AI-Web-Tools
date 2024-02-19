@@ -17,7 +17,8 @@ class _WebLangChainState extends State<WebLangChain> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.webLangChainUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.webLangChainUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,

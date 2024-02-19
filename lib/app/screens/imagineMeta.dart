@@ -17,7 +17,8 @@ class _ImagineMetaState extends State<ImagineMeta> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.imagineMetaUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.imagineMetaUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,

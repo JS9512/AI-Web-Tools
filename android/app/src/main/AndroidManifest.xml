@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aitools.unofficial">
+    package="com.aiwebtools.unofficial">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:label="AI Tools"
+        android:label="AI Web Tools"
         android:name="${applicationName}"
         android:icon="@mipmap/android"
         android:largeHeap="true">

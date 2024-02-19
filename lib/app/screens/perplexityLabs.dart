@@ -17,7 +17,8 @@ class _PerplexityLabsState extends State<PerplexityLabs> {
       child: Scaffold(
         body: SafeArea(
           child: InAppWebView(
-            initialUrlRequest: URLRequest(url: WebUri(Constants.perplexityLabsUrl)),
+            initialUrlRequest:
+                URLRequest(url: WebUri(Constants.perplexityLabsUrl)),
             initialOptions: InAppWebViewGroupOptions(
               crossPlatform: InAppWebViewOptions(
                 userAgent: widget.userAgent,
