@@ -5,6 +5,7 @@ class Constants {
   static const String phindUrl = 'https://phind.com/';
   static const String perplexityUrl = 'https://perplexity.ai/';
   static const String perplexityLabsUrl = 'https://labs.perplexity.ai/';
+  static const String mistralUrl = 'https://chat.mistral.ai/';
   static const String claudeUrl = 'https://claude.ai/';
   static const String huggingChatUrl = 'https://huggingface.co/chat';
   static const String piUrl = 'https://pi.ai/talk';
@@ -49,6 +50,7 @@ class AppStrings {
   static const String bobtailSearch = "Bobtail Search";
   static const String webLangChain = "WebLangChain";
   static const String claude = "Claude";
+  static const String mistral = "Mistral AI";
   static const String huggingChat = "HuggingChat";
   static const String deepl = "DeepL Translator";
   static const String pi = "Pi";

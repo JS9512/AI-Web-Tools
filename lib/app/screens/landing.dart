@@ -1,3 +1,4 @@
+import 'package:aiwebtools/app/screens/mistral.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -252,6 +253,43 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.perplexityLabs,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Mistral(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.mistral,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
