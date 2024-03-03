@@ -8,6 +8,8 @@ class Constants {
   static const String mistralUrl = 'https://chat.mistral.ai/';
   static const String claudeUrl = 'https://claude.ai/';
   static const String huggingChatUrl = 'https://huggingface.co/chat';
+  static const String blackboxUrl = 'https://blackbox.ai/';
+  static const String groqUrl = 'https://groq.com/';
   static const String piUrl = 'https://pi.ai/talk';
   static const String iAskUrl = 'https://iask.ai/';
   static const String komoUrl = 'https://komo.ai/';
@@ -17,6 +19,7 @@ class Constants {
   static const String bobtailSearchUrl = 'https://bobtail.dev/';
   static const String webLangChainUrl = "https://weblangchain.vercel.app/";
   static const String andiSearchUrl = 'https://andisearch.com/';
+  static const String googleLabsUrl = 'https://labs.google/';
   static const String picFinderUrl = 'https://picfinder.ai/';
   static const String craiyonUrl = 'https://craiyon.com/';
   static const String leonardoUrl = 'https://app.leonardo.ai/';
@@ -52,6 +55,8 @@ class AppStrings {
   static const String claude = "Claude";
   static const String mistral = "Mistral AI";
   static const String huggingChat = "HuggingChat";
+  static const String blackbox = "Blackbox AI";
+  static const String groq= "Groq AI";
   static const String deepl = "DeepL Translator";
   static const String pi = "Pi";
   static const String iAsk = "iAsk";
@@ -60,6 +65,7 @@ class AppStrings {
   static const String perUser = "Peruser AI";
   static const String yep = "Yep";
   static const String andiSearch = "AndiSearch";
+  static const String googleLabs = "Google Labs";
   static const String picFinder = "PicFinder";
   static const String craiyon = "Craiyon";
   static const String leonardo = "Leonardo AI";
