@@ -26,6 +26,7 @@ import 'package:aiwebtools/app/screens/gptGo.dart';
 import 'package:aiwebtools/app/screens/imagineMeta.dart';
 import 'package:aiwebtools/app/screens/komo.dart';
 import 'package:aiwebtools/app/screens/perplexityLabs.dart';
+import 'package:aiwebtools/app/screens/adrenaline.dart';
 import 'package:aiwebtools/app/screens/peruser.dart';
 import 'package:aiwebtools/app/screens/yep.dart';
 import 'package:aiwebtools/app/screens/leonardo.dart';
@@ -330,6 +331,80 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.gemini,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => GoogleLabs(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.googleLabs,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Adrenaline(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.adrenaline,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
@@ -848,43 +923,6 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.deepl,
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: FontSize.fs14,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        const SizedBox(
-                          height: AppSize.as10,
-                        ),
-                        Center(
-                          child: Container(
-                            height: AppSize.as40,
-                            width: AppSize.as130,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(
-                                AppPadding.ap10,
-                              ),
-                            ),
-                            child: Center(
-                              child: InkWell(
-                                onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => GoogleLabs(
-                                        userAgent: customUserAgent,
-                                      ),
-                                    ),
-                                  );
-                                },
-                                child: const Text(
-                                  AppStrings.googleLabs,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,

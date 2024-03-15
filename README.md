@@ -1,4 +1,4 @@
-# AI-Web-Tools
+# AI Web Tools
 
 ## Overview
 
@@ -10,10 +10,10 @@ It may have some bugs in recent Android versions, so bear with me.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/JS9512/AI-Web-Tools`
+1. Clone the repository: `git clone https://github.com/JS9512/AIWebTools`
 2. Install dependencies: `flutter pub get`
-3. Build the app: `flutter build apk --split-per-abi`
+3. Build the app: 'flutter build apk --split-per-abi'
 
 ## License
 
-- This project is licensed under the MIT License.
+- This project is licensed under the GPLv3 License.

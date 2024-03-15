@@ -3,6 +3,7 @@ class Constants {
   static const String geminiUrl = 'https://gemini.google.com/';
   static const String deeplUrl = 'https://deepl.com/translator';
   static const String phindUrl = 'https://phind.com/';
+  static const String adrenalineUrl = 'https://useadrenaline.com/';
   static const String perplexityUrl = 'https://perplexity.ai/';
   static const String perplexityLabsUrl = 'https://labs.perplexity.ai/';
   static const String mistralUrl = 'https://chat.mistral.ai/';
@@ -47,9 +48,11 @@ class AppPadding {
 class AppStrings {
   static const String chatGpt = "ChatGPT";
   static const String phind = "Phind";
+  static const String adrenaline = "Adrenaline";
   static const String perplexity = "Perplexity";
   static const String perplexityLabs = "Perplexity Labs";
   static const String gemini = "Google Gemini";
+  static const String googleLabs = "Google Labs";
   static const String bobtailSearch = "Bobtail Search";
   static const String webLangChain = "WebLangChain";
   static const String claude = "Claude";
@@ -65,7 +68,6 @@ class AppStrings {
   static const String perUser = "Peruser AI";
   static const String yep = "Yep";
   static const String andiSearch = "AndiSearch";
-  static const String googleLabs = "Google Labs";
   static const String picFinder = "PicFinder";
   static const String craiyon = "Craiyon";
   static const String leonardo = "Leonardo AI";
