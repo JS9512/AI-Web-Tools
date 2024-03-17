@@ -9,6 +9,7 @@ class Constants {
   static const String mistralUrl = 'https://chat.mistral.ai/';
   static const String claudeUrl = 'https://claude.ai/';
   static const String huggingChatUrl = 'https://huggingface.co/chat';
+  static const String poeUrl = 'https://poe.com/';
   static const String blackboxUrl = 'https://blackbox.ai/';
   static const String groqUrl = 'https://groq.com/';
   static const String piUrl = 'https://pi.ai/talk';
@@ -58,6 +59,7 @@ class AppStrings {
   static const String claude = "Claude";
   static const String mistral = "Mistral AI";
   static const String huggingChat = "HuggingChat";
+  static const String poe = "Poe";
   static const String blackbox = "Blackbox AI";
   static const String groq= "Groq AI";
   static const String deepl = "DeepL Translator";

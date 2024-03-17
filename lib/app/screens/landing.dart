@@ -13,6 +13,7 @@ import 'package:aiwebtools/app/screens/huggingChat.dart';
 import 'package:aiwebtools/app/screens/mistral.dart';
 import 'package:aiwebtools/app/screens/blackbox.dart';
 import 'package:aiwebtools/app/screens/groq.dart';
+import 'package:aiwebtools/app/screens/poe.dart';
 import 'package:aiwebtools/app/screens/pi.dart';
 import 'package:aiwebtools/app/screens/iask.dart';
 import 'package:aiwebtools/app/screens/claude.dart';
@@ -368,6 +369,43 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.googleLabs,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Poe(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.poe,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
