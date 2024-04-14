@@ -19,6 +19,8 @@ class Constants {
   static const String perUserUrl = 'https://peruser.ai/';
   static const String yepUrl = 'https://yep.com/';
   static const String bobtailSearchUrl = 'https://bobtail.dev/';
+  static const String leptonSearchUrl = 'https://search.lepton.run/';
+  static const String thinkAnyUrl = 'https://thinkany.ai/';
   static const String webLangChainUrl = "https://weblangchain.vercel.app/";
   static const String andiSearchUrl = 'https://andisearch.com/';
   static const String googleLabsUrl = 'https://labs.google/';
@@ -55,6 +57,8 @@ class AppStrings {
   static const String gemini = "Google Gemini";
   static const String googleLabs = "Google Labs";
   static const String bobtailSearch = "Bobtail Search";
+  static const String leptonSearch = "Lepton Search";
+  static const String thinkAny = "ThinkAny";
   static const String webLangChain = "WebLangChain";
   static const String claude = "Claude";
   static const String mistral = "Mistral AI";

@@ -8,6 +8,8 @@ import 'package:aiwebtools/app/screens/phind.dart';
 import 'package:aiwebtools/app/screens/gemini.dart';
 import 'package:aiwebtools/app/screens/googleLabs.dart';
 import 'package:aiwebtools/app/screens/bobtailSearch.dart';
+import 'package:aiwebtools/app/screens/leptonSearch.dart';
+import 'package:aiwebtools/app/screens/thinkAny.dart';
 import 'package:aiwebtools/app/screens/webLangChain.dart';
 import 'package:aiwebtools/app/screens/huggingChat.dart';
 import 'package:aiwebtools/app/screens/mistral.dart';
@@ -398,6 +400,43 @@ class _LandingState extends State<Landing> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
+                                      builder: (context) => Claude(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.claude,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
                                       builder: (context) => Poe(
                                         userAgent: customUserAgent,
                                       ),
@@ -509,14 +548,14 @@ class _LandingState extends State<Landing> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => WebLangChain(
+                                      builder: (context) => LeptonSearch(
                                         userAgent: customUserAgent,
                                       ),
                                     ),
                                   );
                                 },
                                 child: const Text(
-                                  AppStrings.webLangChain,
+                                  AppStrings.leptonSearch,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
@@ -546,14 +585,51 @@ class _LandingState extends State<Landing> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => Claude(
+                                      builder: (context) => ThinkAny(
                                         userAgent: customUserAgent,
                                       ),
                                     ),
                                   );
                                 },
                                 child: const Text(
-                                  AppStrings.claude,
+                                  AppStrings.thinkAny,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => WebLangChain(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.webLangChain,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
