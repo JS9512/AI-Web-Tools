@@ -16,4 +16,4 @@ It may have some bugs in recent Android versions, so bear with me.
 
 ## License
 
-- This project is licensed under the GPLv3 License.
+- This project is licensed under the MIT License.
