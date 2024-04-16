@@ -7,7 +7,7 @@ import 'package:aiwebtools/app/screens/perplexity.dart';
 import 'package:aiwebtools/app/screens/phind.dart';
 import 'package:aiwebtools/app/screens/gemini.dart';
 import 'package:aiwebtools/app/screens/googleLabs.dart';
-import 'package:aiwebtools/app/screens/bobtailSearch.dart';
+import 'package:aiwebtools/app/screens/bobtail.dart';
 import 'package:aiwebtools/app/screens/leptonSearch.dart';
 import 'package:aiwebtools/app/screens/thinkAny.dart';
 import 'package:aiwebtools/app/screens/webLangChain.dart';
@@ -33,6 +33,7 @@ import 'package:aiwebtools/app/screens/adrenaline.dart';
 import 'package:aiwebtools/app/screens/peruser.dart';
 import 'package:aiwebtools/app/screens/yep.dart';
 import 'package:aiwebtools/app/screens/leonardo.dart';
+import 'package:aiwebtools/app/screens/lalal.dart';
 import 'package:aiwebtools/app/screens/elevenlabs.dart';
 import 'package:aiwebtools/app/screens/craiyon.dart';
 import 'package:aiwebtools/app/screens/picfinder.dart';
@@ -511,14 +512,14 @@ class _LandingState extends State<Landing> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                      builder: (context) => BobtailSearch(
+                                      builder: (context) => Bobtail(
                                         userAgent: customUserAgent,
                                       ),
                                     ),
                                   );
                                 },
                                 child: const Text(
-                                  AppStrings.bobtailSearch,
+                                  AppStrings.bobtail,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
@@ -1259,6 +1260,43 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.stableDiffWeb,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Lalal(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.lalal,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
