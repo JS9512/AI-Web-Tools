@@ -5,6 +5,7 @@ import '../../constants/constants.dart';
 import 'package:aiwebtools/app/screens/gpt.dart';
 import 'package:aiwebtools/app/screens/perplexity.dart';
 import 'package:aiwebtools/app/screens/phind.dart';
+import 'package:aiwebtools/app/screens/ddg.dart';
 import 'package:aiwebtools/app/screens/gemini.dart';
 import 'package:aiwebtools/app/screens/googleLabs.dart';
 import 'package:aiwebtools/app/screens/bobtail.dart';
@@ -26,7 +27,7 @@ import 'package:aiwebtools/app/screens/playHT.dart';
 import 'package:aiwebtools/app/screens/stablediffweb.dart';
 import 'package:aiwebtools/app/screens/clipdrop.dart';
 import 'package:aiwebtools/app/screens/gptGo.dart';
-import 'package:aiwebtools/app/screens/imagineMeta.dart';
+import 'package:aiwebtools/app/screens/meta.dart';
 import 'package:aiwebtools/app/screens/komo.dart';
 import 'package:aiwebtools/app/screens/perplexityLabs.dart';
 import 'package:aiwebtools/app/screens/adrenaline.dart';
@@ -216,6 +217,43 @@ class _LandingState extends State<Landing> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
+                                      builder: (context) => Ddg(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.ddg,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
                                       builder: (context) => Perplexity(
                                         userAgent: customUserAgent,
                                       ),
@@ -298,6 +336,43 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.mistral,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Meta(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.meta,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,
@@ -1149,43 +1224,6 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.leonardo,
-                                  style: TextStyle(
-                                    color: Colors.black,
-                                    fontSize: FontSize.fs14,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          ),
-                        ),
-                        const SizedBox(
-                          height: AppSize.as10,
-                        ),
-                        Center(
-                          child: Container(
-                            height: AppSize.as40,
-                            width: AppSize.as130,
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(
-                                AppPadding.ap10,
-                              ),
-                            ),
-                            child: Center(
-                              child: InkWell(
-                                onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) => ImagineMeta(
-                                        userAgent: customUserAgent,
-                                      ),
-                                    ),
-                                  );
-                                },
-                                child: const Text(
-                                  AppStrings.imagineMeta,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,

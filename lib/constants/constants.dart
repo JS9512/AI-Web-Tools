@@ -1,6 +1,7 @@
 class Constants {
   static const String chatGptUrl = 'https://chat.openai.com/';
   static const String geminiUrl = 'https://gemini.google.com/';
+  static const String ddgUrl = 'https://duckduckgo.com/hi?ia=chat';
   static const String deeplUrl = 'https://deepl.com/translator';
   static const String phindUrl = 'https://phind.com/';
   static const String adrenalineUrl = 'https://useadrenaline.com/';
@@ -27,7 +28,7 @@ class Constants {
   static const String picFinderUrl = 'https://picfinder.ai/';
   static const String craiyonUrl = 'https://craiyon.com/';
   static const String leonardoUrl = 'https://app.leonardo.ai/';
-  static const String imagineMetaUrl = 'https://imagine.meta.com/';
+  static const String metaUrl = 'https://meta.ai/';
   static const String stableDiffWebUrl = 'https://stablediffusionweb.com/';
   static const String clipdropUrl = 'https://clipdrop.co/';
   static const String lalalUrl = 'https://lalal.ai/';
@@ -52,6 +53,7 @@ class AppPadding {
 class AppStrings {
   static const String chatGpt = "ChatGPT";
   static const String phind = "Phind";
+  static const String ddg = "DuckDuckGo AI";
   static const String adrenaline = "Adrenaline";
   static const String perplexity = "Perplexity";
   static const String perplexityLabs = "Perplexity Labs";
@@ -62,24 +64,24 @@ class AppStrings {
   static const String thinkAny = "ThinkAny";
   static const String webLangChain = "WebLangChain";
   static const String claude = "Claude";
-  static const String mistral = "MistralAI";
+  static const String mistral = "Mistral";
+  static const String meta = "Meta AI";
   static const String huggingChat = "HuggingChat";
   static const String poe = "Poe";
-  static const String blackbox = "BlackboxAI";
-  static const String groq= "Groq AI";
+  static const String blackbox = "Blackbox";
+  static const String groq = "Groq";
   static const String deepl = "DeepL Translator";
   static const String pi = "Pi";
   static const String iAsk = "iAsk";
   static const String komo = "Komo";
   static const String gptGo = "GPTGO";
-  static const String perUser = "PeruserAI";
+  static const String perUser = "Peruser";
   static const String yep = "Yep";
   static const String andiSearch = "AndiSearch";
   static const String picFinder = "PicFinder";
   static const String craiyon = "Craiyon";
-  static const String leonardo = "LeonardoAI";
+  static const String leonardo = "Leonardo AI";
   static const String clipdrop = "Clipdrop";
-  static const String imagineMeta = "Imagine Meta AI";
   static const String stableDiffWeb = "Stable Diffusion";
   static const String lalal = "LalalAI";
   static const String elevenLabs = "ElevenLabs";
