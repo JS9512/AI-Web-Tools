@@ -1,5 +1,6 @@
 class Constants {
   static const String chatGptUrl = 'https://chat.openai.com/';
+  static const String copilotUrl = 'https://copilot.microsoft.com/';
   static const String geminiUrl = 'https://gemini.google.com/';
   static const String ddgUrl = 'https://duckduckgo.com/hi?ia=chat';
   static const String deeplUrl = 'https://deepl.com/translator';
@@ -14,6 +15,7 @@ class Constants {
   static const String blackboxUrl = 'https://blackbox.ai/';
   static const String groqUrl = 'https://groq.com/';
   static const String piUrl = 'https://pi.ai/talk';
+  static const String youUrl = 'https://you.com/';
   static const String iAskUrl = 'https://iask.ai/';
   static const String komoUrl = 'https://komo.ai/';
   static const String gptGoUrl = 'https://gptgo.ai/';
@@ -25,6 +27,8 @@ class Constants {
   static const String webLangChainUrl = "https://weblangchain.vercel.app/";
   static const String andiSearchUrl = 'https://andisearch.com/';
   static const String googleLabsUrl = 'https://labs.google/';
+  static const String characterUrl = 'https://character.ai/';
+  static const String writesonicUrl = 'https://writesonic.com/';
   static const String picFinderUrl = 'https://picfinder.ai/';
   static const String craiyonUrl = 'https://craiyon.com/';
   static const String leonardoUrl = 'https://app.leonardo.ai/';
@@ -52,6 +56,7 @@ class AppPadding {
 
 class AppStrings {
   static const String chatGpt = "ChatGPT";
+  static const String copilot = "Microsoft Copilot";
   static const String phind = "Phind";
   static const String ddg = "DuckDuckGo AI";
   static const String adrenaline = "Adrenaline";
@@ -66,6 +71,7 @@ class AppStrings {
   static const String claude = "Claude";
   static const String mistral = "Mistral";
   static const String meta = "Meta AI";
+  static const String you = "You";
   static const String huggingChat = "HuggingChat";
   static const String poe = "Poe";
   static const String blackbox = "Blackbox";
@@ -78,6 +84,8 @@ class AppStrings {
   static const String perUser = "Peruser";
   static const String yep = "Yep";
   static const String andiSearch = "AndiSearch";
+  static const String character = "Character AI";
+  static const String writesonic = "Writesonic";
   static const String picFinder = "PicFinder";
   static const String craiyon = "Craiyon";
   static const String leonardo = "Leonardo AI";
