@@ -10,7 +10,7 @@ It may have some bugs in recent Android versions, so bear with me.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/JS9512/AIWebTools`
+1. Clone the repository: `git clone https://github.com/JS9512/AI-Web-Tools`
 2. Install dependencies: `flutter pub get`
 3. Build the app: `flutter build apk --release --split-per-abi`
 
