@@ -9,6 +9,7 @@ import 'package:aiwebtools/app/screens/phind.dart';
 import 'package:aiwebtools/app/screens/ddg.dart';
 import 'package:aiwebtools/app/screens/gemini.dart';
 import 'package:aiwebtools/app/screens/googleLabs.dart';
+import 'package:aiwebtools/app/screens/omniplex.dart';
 import 'package:aiwebtools/app/screens/bobtail.dart';
 import 'package:aiwebtools/app/screens/leptonSearch.dart';
 import 'package:aiwebtools/app/screens/thinkAny.dart';
@@ -636,6 +637,43 @@ class _LandingState extends State<Landing> {
                                 },
                                 child: const Text(
                                   AppStrings.adrenaline,
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: FontSize.fs14,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: AppSize.as10,
+                        ),
+                        Center(
+                          child: Container(
+                            height: AppSize.as40,
+                            width: AppSize.as130,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(
+                                AppPadding.ap10,
+                              ),
+                            ),
+                            child: Center(
+                              child: InkWell(
+                                onTap: () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                      builder: (context) => Omniplex(
+                                        userAgent: customUserAgent,
+                                      ),
+                                    ),
+                                  );
+                                },
+                                child: const Text(
+                                  AppStrings.omniplex,
                                   style: TextStyle(
                                     color: Colors.black,
                                     fontSize: FontSize.fs14,

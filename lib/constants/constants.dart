@@ -21,6 +21,7 @@ class Constants {
   static const String gptGoUrl = 'https://gptgo.ai/';
   static const String perUserUrl = 'https://peruser.ai/';
   static const String yepUrl = 'https://yep.com/';
+  static const String omniplexUrl = 'https://omniplex.ai/';
   static const String bobtailUrl = 'https://bobtail.dev/';
   static const String leptonSearchUrl = 'https://search.lepton.run/';
   static const String thinkAnyUrl = 'https://thinkany.ai/';
@@ -64,6 +65,7 @@ class AppStrings {
   static const String perplexityLabs = "Perplexity Labs";
   static const String gemini = "Google Gemini";
   static const String googleLabs = "Google Labs";
+  static const String omniplex = "Omniplex";
   static const String bobtail = "Bobtail";
   static const String leptonSearch = "Lepton Search";
   static const String thinkAny = "ThinkAny";
