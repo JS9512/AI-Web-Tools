@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI Tools is a simple mobile application inspired by https://github.com/steven-kamanga/Brain and written in Flutter, it provides shortcuts to popular AI websites in a comfortable manner.
+AI Web Tools is a simple mobile application inspired by https://github.com/steven-kamanga/Brain and written in Flutter, it provides shortcuts to popular AI websites in a comfortable manner.
 
 Keep in mind it's still a WIP and it's slowly being developed in my free time.
 
