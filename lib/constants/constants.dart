@@ -28,6 +28,10 @@ class Constants {
   static const String webLangChainUrl = "https://weblangchain.vercel.app/";
   static const String andiSearchUrl = 'https://andisearch.com/';
   static const String googleLabsUrl = 'https://labs.google/';
+  static const String bigAGIUrl = 'https://coolagi.vercel.app/';
+  static const String typesetUrl = 'https://typeset.io/';
+  static const String flowGPTUrl = 'https://flowgpt.com/';
+  static const String aiSDKUrl = 'https://sdk.vercel.ai/';
   static const String characterUrl = 'https://character.ai/';
   static const String writesonicUrl = 'https://writesonic.com/';
   static const String picFinderUrl = 'https://picfinder.ai/';
@@ -37,6 +41,7 @@ class Constants {
   static const String stableDiffWebUrl = 'https://stablediffusionweb.com/';
   static const String clipdropUrl = 'https://clipdrop.co/';
   static const String lalalUrl = 'https://lalal.ai/';
+  static const String mikrotaktUrl = 'https://mikrotakt.app/';
   static const String elevenLabsUrl = 'https://elevenlabs.io/';
   static const String cloudTTSUrl = 'https://cloudtts.com/';
   static const String playHT = 'https://play.ht/';
@@ -86,6 +91,10 @@ class AppStrings {
   static const String perUser = "Peruser";
   static const String yep = "Yep";
   static const String andiSearch = "AndiSearch";
+  static const String bigAgi = "bigAGI";
+  static const String typeset = "Typeset";
+  static const String flowGpt = "FlowGPT";
+  static const String aiSdk = "AI SDK";
   static const String character = "Character AI";
   static const String writesonic = "Writesonic";
   static const String picFinder = "PicFinder";
@@ -94,6 +103,7 @@ class AppStrings {
   static const String clipdrop = "Clipdrop";
   static const String stableDiffWeb = "Stable Diffusion";
   static const String lalal = "LalalAI";
+  static const String mikrotakt = "Mikrotakt";
   static const String elevenLabs = "ElevenLabs";
   static const String cloudTTS = "CloudTTS";
   static const String playHT = "PlayHT";
