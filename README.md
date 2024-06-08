@@ -8,6 +8,7 @@ Keep in mind it's still a WIP and it's slowly being developed in my free time.
 
 It may have some bugs in recent Android versions, so bear with me.
 
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/JS9512/AI-Web-Tools`
