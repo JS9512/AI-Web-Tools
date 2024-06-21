@@ -2,7 +2,7 @@ class Constants {
   static const String chatGptUrl = 'https://chat.openai.com/';
   static const String copilotUrl = 'https://copilot.microsoft.com/';
   static const String geminiUrl = 'https://gemini.google.com/';
-  static const String ddgUrl = 'https://duckduckgo.com/hi?ia=chat';
+  static const String ddgUrl = 'https://start.duckduckgo.com/?q=DuckDuckGo&ia=chat';
   static const String deeplUrl = 'https://deepl.com/translator';
   static const String phindUrl = 'https://phind.com/';
   static const String adrenalineUrl = 'https://useadrenaline.com/';
